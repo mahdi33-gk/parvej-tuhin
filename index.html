@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClientCarePHT</title>
+    <!-- tailwind and daisyui cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/288dc013f9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" class="rounded-2xl" href="client.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- navbar -->
+     <header class="sticky top-0 z-50 shadow-lg" >
+        <nav >
+            <div class="navbar bg-base-200 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Dashboard</a></li>
+                      <li><a href="">Clients</a></li>
+                      <li><a>Tasks</a></li>
+                      <li><a>Hosting</a></li>
+                      <li><a>Report</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><i class="text-3xl fa-regular fa-handshake"></i> ClientCarePHT</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 font-bold">
+                      <li><a>Dashboard</a></li>
+                      <li><a href="">Clients</a></li>
+                      <li><a>Tasks</a></li>
+                      <li><a>Hosting</a></li>
+                      <li><a>Report</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn lg:border-hidden btn-outline btn-warning"><i class="fa-solid fa-user-lock "></i> Login</button>
+                </div>
+            </div>
+        </nav>
+
+     </header>
+     <!-- hero-bg section -->
+      <section>
+        
+        <div class="flex flex-col mt-16 lg:flex-row mx-auto mb-10">
+          <div class="p-5 ">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center lg:text-left">
+              You can host your site for free with 
+              <span class="text-orange-700">Md. Parvaj Hasan Tuhin.</span> See yaa!
+            </h1>
+            
+            <p class="mt-6 text-center lg:text-left">Hey buddy! You believe this shit already? Haha! Why would I host your site for free haa? You're not my dulavai or shala .So watch your back next time. baa baye...</p>
+            <div class="mt-6 flex gap-5 items-center justify-center lg:justify-start">
+              <button class="btn btn-active btn-secondary">Get Started Free</button>
+              <button class="btn btn-outline">Get a Demo</button>
+            </div>
+          </div>
+          <!-- image -->
+           <div class="p-5 w-full"> 
+            <img src="images/hero-bg.png" alt="">
+          </div> 
+        </div> 
+
+      </section>
+      
+
+      <!-- Card pricing-->
+       <section class=" bg-slate-700">
+        <div class="flex items-center flex-col  justify-center">
+          
+          <h1 class="text-white font-bold text-3xl mt-8 border-dashed border-2 border-gray-800">Pricing Your Plan</h1>
+          <p class="text-center">Choose the right plan for your needs with our flexible, scalable pricing options.</p>
+        </div>
+        <div class="flex lg:flex-row lg:gap-6 flex-col items-center  justify-center ">
+          
+          <div class="shadow-2xl px-5 py-3 w-[350px]  mt-20  bg-gray-800 items-center justify-center     rounded-xl mb-10 ">
+            
+            <div class="py-2 ">
+              <div class="flex items-center justify-center flex-col   py-2">
+              
+                <p class="text-white text-3xl">Free</p>
+                <h1 class="text-[50px] px-1 font-bold">$0/month</h1>
+              </div>
+              <div class="flex flex-col gap-2 mt-6">
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  300MB Storage</p>
+                <p><i class="   text-green-600 fa-solid fa-check"></i>  Basic Features</p>
+                <p><i class="text-red-600 fa-solid fa-xmark"></i>  Email Support</p>
+                <p><i class="text-red-600 fa-solid fa-xmark"></i>  Premium Features</p>
+                <p><i class="text-red-600 fa-solid fa-xmark"></i>  24/7 Chat Support</p>
+                <p><i class=" text-red-600 fa-solid fa-xmark"></i>  Unlimited Access</p>
+    
+                <button class="mt-10 btn btn-secondary">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-2xl px-5 py-3 w-[350px] bg lg:mt-20  bg-gray-800 items-center justify-center     rounded-xl mb-10">
+            
+            <div class="py-2">
+              <div class="flex items-center justify-center flex-col   py-2">
+              
+                <p class="text-white text-3xl">Premium</p>
+                <h1 class="text-[50px] px-1 font-bold">$99/month</h1>
+              </div>
+              <div class="flex flex-col gap-2 mt-6">
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  1GB Storage</p>
+                <p><i class="   text-green-600 fa-solid fa-check"></i>  Basic Features</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  Email Support</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  Premium Features</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  24/7 Chat Support</p>
+                <p><i class=" text-red-600 fa-solid fa-xmark"></i>  Unlimited Access</p>
+    
+                <button class="mt-10 btn btn-secondary">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow-2xl px-5 py-3 w-[350px] bg lg:mt-20  bg-gray-800 items-center justify-center     rounded-xl mb-10">
+            
+            <div class="py-2">
+              <div class="flex items-center justify-center flex-col   py-2">
+              
+                <p class="text-white text-3xl">Exclusive</p>
+                <h1 class="text-[50px] px-1 font-bold">$199/month</h1>
+              </div>
+              <div class="flex flex-col gap-2 mt-6">
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  10GB Storage</p>
+                <p><i class="   text-green-600 fa-solid fa-check"></i>  Basic Features</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  Email Support</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  Premium Features</p>
+                <p><i class=" text-green-600 fa-solid fa-check"></i>  24/7 Chat Support</p>
+                <p><i class="  text-green-600 fa-solid fa-check"></i>  Unlimited Access</p>
+    
+                <button class="mt-10 btn btn-secondary">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+       </section>
+    
+</body>
+</html>
