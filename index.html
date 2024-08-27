@@ -10,6 +10,7 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/288dc013f9.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" class="rounded-2xl" href="client.png" type="image/x-icon">
+    
 
 </head>
 <body>
@@ -40,7 +41,7 @@
                       <li><a href="">Clients</a></li>
                       <li><a>Tasks</a></li>
                       <li><a>Hosting</a></li>
-                      <li><a>Report</a></li>
+                      <li><a>About Us</a></li>
                     </ul>
                   </div>
                   <a class="btn btn-ghost text-xl"><i class="text-3xl fa-regular fa-handshake"></i> ClientCarePHT</a>
@@ -51,7 +52,7 @@
                       <li><a href="">Clients</a></li>
                       <li><a>Tasks</a></li>
                       <li><a>Hosting</a></li>
-                      <li><a>Report</a></li>
+                      <li><a>About Us</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
@@ -66,10 +67,10 @@
         
         <div class="flex flex-col mt-16 lg:flex-row mx-auto mb-10">
           <div class="p-5 ">
-            <h1 class="text-center lg:text-left text-orange-700"><i class="text-3xl fa-regular fa-handshake"></i></a></h1>
+            <h1 class="text-center lg:hidden lg:text-left text-orange-700"><i class="text-3xl fa-regular fa-handshake"></i></a></h1>
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center lg:text-left">
               You can host your site for free with <br> 
-              <span class="text-orange-700">Md. Parvaj Hasan Tuhin.</span> <br> See yaa!
+              <span class="text-orange-700">Md. Parvaj Hasan Tuhin.</span> <br> <span class="lg:hidden">See yaa!</span>
             </h1>
             
             <p class="mt-6 text-center lg:text-left">Hey buddy! You believe this shit already? Haha! Why would I host your site for free haa? You're not my dulavai or shala .So watch your back next time. baa baye...</p>
@@ -80,9 +81,20 @@
           </div>
           <!-- image -->
            <div class="p-5 w-full"> 
-            <img src="images/hero-bg.png" alt="">
+            <img src="images/hero.bg.png" alt="">
           </div> 
         </div> 
+        <p class="text-[12px] opacity-25">Trusted by 160 million worldwide</p>
+        <hr class="opacity-20 bg-gray-800 h-1">
+        <div class="flex justify-center px-auto opacity-30 gap-2 md:gap-12 md:mt-3 md:mb-3 mt-1 mb-1">
+          <p class="flex text-[10px] md:text-4xl items-center"><i class="fa-solid fa-biohazard"></i> Zombie</p>
+          <p class="flex text-[10px] md:text-4xl items-center"><i class="fa-brands fa-microsoft"></i> Microsoft</p>
+          <p class="text-[10px] md:text-4xl">SAMSUNG</p>
+          <p class="text-[10px] md:text-4xl flex items-center"><i class="fa-brands fa-meta"></i> Meta</p>
+          <p class="text-[10px] md:text-4xl ">Amazon</p>
+          
+        </div>
+        
 
       </section>
       
@@ -91,7 +103,7 @@
        <section class=" bg-slate-700">
         <div class="flex items-center flex-col  justify-center">
           
-          <h1 class="text-white font-bold text-3xl mt-8 border-dashed border-2 border-gray-800">Pricing Your Plan</h1>
+          <h1 class="text-white font-bold text-3xl md:text-4xl mt-8 border-dashed border-2 border-gray-800">Pricing Your Plan</h1>
           <p class="text-center">Choose the right plan for your needs with our flexible, scalable pricing options.</p>
         </div>
         <div class="flex lg:flex-row lg:gap-6 flex-col items-center  justify-center ">
@@ -160,6 +172,61 @@
           </div>
         </div> 
        </section>
+
+       <!-- hosting section -->
+        <section class="bg-[url('network.jpg')] bg-cover bg-center  h-auto">
+          <div>
+            <div
+              class="hero min-h-screen"
+              style="background-image: url(net.png);">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                  <h1 class="mb-5 text-5xl font-bold">Host with the best</h1>
+                  <p class="mb-5">
+                    Im here to help you make a super responsive  web page without knowing any programming language also i provide free hosting.
+                  </p>
+                  <button class="btn btn-secondery">Explore hosting</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- common ques -->
+         <section>
+          <div>
+            <div>
+              <h1 class="underline text-2xl md:text-3xl mt-5 font-bold flex justify-center items-center">Frequently Asked Questions</h1>
+              
+            </div>
+            <div class="join join-vertical w-full">
+              <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is a client management system?</div>
+                <div class="collapse-content">
+                  <p>you dont have any right to know</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Is Parvaj a superbaccha?</div>
+                <div class="collapse-content">
+                  <p>Get lost</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">How can i marry my dream girl?</div>
+                <div class="collapse-content">
+                  <p>Go LGED mor at night 8pm and ull see your dream girl .then u know what to do </p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+        
     
 </body>
 </html>
