@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClientCarePHT</title>
+    <!-- tailwind and daisyui cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/288dc013f9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" class="rounded-2xl" href="client.png" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar -->
+    <header class="sticky top-0 z-50 shadow-lg" >
+        <nav >
+            <div class="navbar bg-base-200 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a href="index.html">Dashboard</a></li>
+                      <li><a href="">Clients</a></li>
+                      <li><a>Tasks</a></li>
+                      <li><a>Hosting</a></li>
+                      <li><a>About Us</a></li>
+                    </ul>
+                  </div>
+                  <a href="index.html" class="btn btn-ghost text-xl"><i class="text-3xl fa-regular fa-handshake"></i> ClientCarePHT</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 font-bold">
+                      <li><a href="index.html">Dashboard</a></li>
+                      <li><a href="">Clients</a></li>
+                      <li><a>Tasks</a></li>
+                      <li><a>Hosting</a></li>
+                      <li><a>About Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn lg:border-hidden btn-outline btn-warning"><i class="fa-solid fa-user-lock "></i> Login</button>
+                </div>
+            </div>
+        </nav>
+
+     </header>
+
+     <!-- error -->
+      <section class="bg-slate-900">
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="text-center lg:text-left">
+              <h1 class="text-5xl font-bold"><a href="err.html">Login now!</a></h1>
+              <p class="py-6">
+                Hey, Welcome back! Please log in to access your account and continue your journey with us. We're excited to have you back and ready to assist with anything you need.
+              </p>
+            </div>
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Email</span>
+                  </label>
+                  <input type="email" placeholder="email" class="input input-bordered" required />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Password</span>
+                  </label>
+                  <input type="password" placeholder="password" class="input input-bordered" required />
+                  <label class="label">
+                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                  </label>
+                </div>
+                <div class="form-control mt-6">
+                  <button class="btn btn-primary"><a href="index.html">Login</a></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+
+     <!-- footer section -->
+         
+     <footer class="footer bg-base-200 text-base-content p-10">
+        <aside>
+          <a class="btn btn-ghost text-xl"><i class="md:text-5xl text-3xl fa-regular fa-handshake"></i> ClientCarePHT</a>
+          <p>
+            Founder: Parvaj Hasan Tuhin
+          </p>
+        </aside>
+        <div class="flex flex-row gap-20 justify-center">
+            <nav class="flex flex-col">
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Create Site</a>
+                <a class="link link-hover">Problems</a>
+                <a class="link link-hover">Hosing</a>
+                <a class="link link-hover">Hosting error</a>
+              </nav>
+              
+              <nav class="flex flex-col">
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+              </nav>
+
+              <nav class="flex flex-col">
+                <h6 class="footer-title">Team</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+              </nav>
+        </div>
+        
+      </footer>
+      <footer class="footer footer-center bg-base-300 text-base-content p-4">
+        <aside>
+          <p>Copyright ©ClientCare- All right reserved </p>
+        </aside>
+      </footer>
+</body>
+</html>
